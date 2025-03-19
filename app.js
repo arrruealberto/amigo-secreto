@@ -11,7 +11,7 @@ function agregarAmigo(){
         return;
     }
 
-    let validarAmigo = /^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$/;s
+    let validarAmigo = /^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$/;
     if (!validarAmigo.test(nombreAmigo)) {
         alert("El nombre solo debe contener letras");
         return;}
